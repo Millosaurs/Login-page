@@ -1,4 +1,4 @@
-import LoginForm from './components/login-form';
+import Auth from './auth';
 import MatrixRain from './components/MatrixRain'; // Import the MatrixRain component
 
 export default function Home() {
@@ -22,18 +22,13 @@ export default function Home() {
   <div className="flex items-center space-x-2 mb-4">
     <span className="text-3xl font-bold font-mono">Mot10n</span>
   </div>
-
-  <div className="hidden md:flex space-x-4 font-mono text-xl border-2 border-transparent rounded-3xl px-10 py-3 invisible">
-    <a href="#" className="p-2 text-white hover:text-gray-300 border-transparent hover:border-white rounded-xl hover:bg-gray-800 transition-all">Home</a>
-    <a href="#" className="p-2 text-white hover:text-gray-300 border-transparent hover:border-white rounded-xl hover:bg-gray-800 transition-all">About</a>
-    <a href="#" className="p-2 text-white hover:text-gray-300 border-transparent hover:border-white rounded-xl hover:bg-gray-800 transition-all">Contact</a>
-  </div>        
+       
 </nav>
 
 
         {/* Main Content */}
         <main className="flex-grow flex flex-col items-center justify-center px-4">
-          <LoginForm />
+        <Auth />
         </main>
       </div>
     </div>
