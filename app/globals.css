@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text: #0b111d;
+  --background: #f4f6fb;
+  --primary: #223768;
+  --secondary: #7895d9;
+  --accent: #2c51af;
+}
+.dark {
+  --text: #e0e6f3;
+  --background: #04060b;
+  --primary: #98adde;
+  --secondary: #264286;
+  --accent: #4f75d3;
+}
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
