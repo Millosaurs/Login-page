@@ -70,7 +70,7 @@ export default function LoginForm() {
         </button>
       </form>
       <p className="mt-6 text-center text-sm text-gray-400 font-mono">
-        Don't have an account?{" "}
+        Don't have an account?{"&apos;"}
         <a href="#" className="text-white hover:underline font-mono">Sign up</a>
       </p>
     </div>
