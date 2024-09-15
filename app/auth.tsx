@@ -42,7 +42,7 @@ const SignUpForm = () => {
   return (
     <div className="w-full max-w-md mt-8"> {/* Added margin-top here */}
       <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center font-mono">
-        Let's Begin...
+        Let&apos;s Begin...
       </h1>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="space-y-2">
@@ -205,7 +205,7 @@ export default function AuthPage() {
           </p>
         ) : (
           <p className="text-sm text-gray-400">
-            Don't have an account?{' '}
+            Don&apos;t have an account?{' '}
             <button
               className="text-white hover:underline"
               onClick={() => setIsSignUp(true)}
