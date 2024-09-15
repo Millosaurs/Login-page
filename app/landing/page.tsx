@@ -12,7 +12,7 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
 
 export default function Landing() {
   return (
-    <div className="relative min-h-screen bg-black">
+    <div className="relative min-h-screen bg-black font-mono">
       {/* Matrix Rain Overlay */}
       <MatrixRain/>
 
